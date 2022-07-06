@@ -1,0 +1,363 @@
+Microsoft Windows [Version 10.0.18362.418]                                                                                                                                (c) 2019 Microsoft Corporation. All rights reserved.                                                                                                                                                                                                                                                                                                C:\Program Files\MongoDB\Server\5.0\bin>mongod                                                                                                                            {"t":{"$date":"2022-04-27T21:50:04.381+05:30"},"s":"I",  "c":"NETWORK",  "id":4915701, "ctx":"main","msg":"Initialized wire specification","attr":{"spec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":13},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":13},"outgoing":{"minWireVersion":0,"maxWireVersion":13},"isInternalClient":true}}}                                                                                                                                                 {"t":{"$date":"2022-04-27T21:50:04.388+05:30"},"s":"I",  "c":"CONTROL",  "id":23285,   "ctx":"main","msg":"Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'"}                                                                                                                                         {"t":{"$date":"2022-04-27T21:50:08.083+05:30"},"s":"W",  "c":"ASIO",     "id":22601,   "ctx":"main","msg":"No TransportLayer configured during NetworkInterface startup"} {"t":{"$date":"2022-04-27T21:50:08.084+05:30"},"s":"I",  "c":"NETWORK",  "id":4648602, "ctx":"main","msg":"Implicit TCP FastOpen in use."}                                {"t":{"$date":"2022-04-27T21:50:08.089+05:30"},"s":"W",  "c":"ASIO",     "id":22601,   "ctx":"main","msg":"No TransportLayer configured during NetworkInterface startup"} {"t":{"$date":"2022-04-27T21:50:08.089+05:30"},"s":"I",  "c":"REPL",     "id":5123008, "ctx":"main","msg":"Successfully registered PrimaryOnlyService","attr":{"service":"TenantMigrationDonorService","ns":"config.tenantMigrationDonors"}}                                                                                                        {"t":{"$date":"2022-04-27T21:50:08.090+05:30"},"s":"I",  "c":"REPL",     "id":5123008, "ctx":"main","msg":"Successfully registered PrimaryOnlyService","attr":{"service":"TenantMigrationRecipientService","ns":"config.tenantMigrationRecipients"}}                                                                                                {"t":{"$date":"2022-04-27T21:50:08.090+05:30"},"s":"I",  "c":"CONTROL",  "id":5945603, "ctx":"main","msg":"Multi threading initialized"}                                  {"t":{"$date":"2022-04-27T21:50:08.091+05:30"},"s":"I",  "c":"CONTROL",  "id":4615611, "ctx":"initandlisten","msg":"MongoDB starting","attr":{"pid":17088,"port":27017,"dbPath":"C:/data/db/","architecture":"64-bit","host":"DESKTOP-QP03PRQ"}}                                                                                                    {"t":{"$date":"2022-04-27T21:50:08.091+05:30"},"s":"I",  "c":"CONTROL",  "id":23398,   "ctx":"initandlisten","msg":"Target operating system minimum version","attr":{"targetMinOS":"Windows 7/Windows Server 2008 R2"}}                                                                                                                             {"t":{"$date":"2022-04-27T21:50:08.091+05:30"},"s":"I",  "c":"CONTROL",  "id":23403,   "ctx":"initandlisten","msg":"Build Info","attr":{"buildInfo":{"version":"5.0.8","gitVersion":"c87e1c23421bf79614baf500fda6622bd90f674e","modules":[],"allocator":"tcmalloc","environment":{"distmod":"windows","distarch":"x86_64","target_arch":"x86_64"}}}}                                                                                                                                                                          {"t":{"$date":"2022-04-27T21:50:08.091+05:30"},"s":"I",  "c":"CONTROL",  "id":51765,   "ctx":"initandlisten","msg":"Operating System","attr":{"os":{"name":"Microsoft Windows 10","version":"10.0 (build 18362)"}}}                                                                                                                                 {"t":{"$date":"2022-04-27T21:50:08.092+05:30"},"s":"I",  "c":"CONTROL",  "id":21951,   "ctx":"initandlisten","msg":"Options set by command line","attr":{"options":{}}}   {"t":{"$date":"2022-04-27T21:50:08.116+05:30"},"s":"E",  "c":"CONTROL",  "id":20557,   "ctx":"initandlisten","msg":"DBException in initAndListen, terminating","attr":{"error":"NonExistentPath: Data directory C:\\data\\db\\ not found. Create the missing directory or specify another path using (1) the --dbpath command line option, or (2) by adding the 'storage.dbPath' option in the configuration file."}}                                                                                                         {"t":{"$date":"2022-04-27T21:50:08.119+05:30"},"s":"I",  "c":"REPL",     "id":4784900, "ctx":"initandlisten","msg":"Stepping down the ReplicationCoordinator for shutdown","attr":{"waitTimeMillis":15000}}                                                                                                                                         {"t":{"$date":"2022-04-27T21:50:08.121+05:30"},"s":"I",  "c":"COMMAND",  "id":4784901, "ctx":"initandlisten","msg":"Shutting down the MirrorMaestro"}                     {"t":{"$date":"2022-04-27T21:50:08.122+05:30"},"s":"I",  "c":"SHARDING", "id":4784902, "ctx":"initandlisten","msg":"Shutting down the WaitForMajorityService"}            {"t":{"$date":"2022-04-27T21:50:08.122+05:30"},"s":"I",  "c":"NETWORK",  "id":20562,   "ctx":"initandlisten","msg":"Shutdown: going to close listening sockets"}          {"t":{"$date":"2022-04-27T21:50:08.123+05:30"},"s":"I",  "c":"NETWORK",  "id":4784905, "ctx":"initandlisten","msg":"Shutting down the global connection pool"}            {"t":{"$date":"2022-04-27T21:50:08.124+05:30"},"s":"I",  "c":"CONTROL",  "id":4784906, "ctx":"initandlisten","msg":"Shutting down the FlowControlTicketholder"}           {"t":{"$date":"2022-04-27T21:50:08.125+05:30"},"s":"I",  "c":"-",        "id":20520,   "ctx":"initandlisten","msg":"Stopping further Flow Control ticket acquisitions."}  {"t":{"$date":"2022-04-27T21:50:08.126+05:30"},"s":"I",  "c":"NETWORK",  "id":4784918, "ctx":"initandlisten","msg":"Shutting down the ReplicaSetMonitor"}                 {"t":{"$date":"2022-04-27T21:50:08.128+05:30"},"s":"I",  "c":"SHARDING", "id":4784921, "ctx":"initandlisten","msg":"Shutting down the MigrationUtilExecutor"}             {"t":{"$date":"2022-04-27T21:50:08.135+05:30"},"s":"I",  "c":"ASIO",     "id":22582,   "ctx":"MigrationUtil-TaskExecutor","msg":"Killing all outstanding egress activity."}                                                                                                                                                                         {"t":{"$date":"2022-04-27T21:50:08.135+05:30"},"s":"I",  "c":"COMMAND",  "id":4784923, "ctx":"initandlisten","msg":"Shutting down the ServiceEntryPoint"}                 {"t":{"$date":"2022-04-27T21:50:08.136+05:30"},"s":"I",  "c":"CONTROL",  "id":4784925, "ctx":"initandlisten","msg":"Shutting down free monitoring"}                       {"t":{"$date":"2022-04-27T21:50:08.137+05:30"},"s":"I",  "c":"CONTROL",  "id":4784927, "ctx":"initandlisten","msg":"Shutting down the HealthLog"}                         {"t":{"$date":"2022-04-27T21:50:08.137+05:30"},"s":"I",  "c":"CONTROL",  "id":4784928, "ctx":"initandlisten","msg":"Shutting down the TTL monitor"}                       {"t":{"$date":"2022-04-27T21:50:08.138+05:30"},"s":"I",  "c":"CONTROL",  "id":4784929, "ctx":"initandlisten","msg":"Acquiring the global lock for shutdown"}              {"t":{"$date":"2022-04-27T21:50:08.139+05:30"},"s":"I",  "c":"-",        "id":4784931, "ctx":"initandlisten","msg":"Dropping the scope cache for shutdown"}               {"t":{"$date":"2022-04-27T21:50:08.140+05:30"},"s":"I",  "c":"FTDC",     "id":4784926, "ctx":"initandlisten","msg":"Shutting down full-time data capture"}                {"t":{"$date":"2022-04-27T21:50:08.141+05:30"},"s":"I",  "c":"CONTROL",  "id":20565,   "ctx":"initandlisten","msg":"Now exiting"}                                         {"t":{"$date":"2022-04-27T21:50:08.142+05:30"},"s":"I",  "c":"CONTROL",  "id":23138,   "ctx":"initandlisten","msg":"Shutting down","attr":{"exitCode":100}}                                                                                                                                                                                         C:\Program Files\MongoDB\Server\5.0\bin
+>mongo                                                                                                                            
+MongoDB shell version v5.0.8                                                                                                                                             
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb                                                                                  
+Implicit session: session { "id" : UUID("002e61b5-197e-499d-a271-500c60275fa4") }                                                                                         
+MongoDB server version: 5.0.8                                                                                                                                             
+================                                                                                                                                                          
+Warning: the "mongo" shell has been superseded by "mongosh",which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in an upcoming release.                                             For installation instructions, see https://docs.mongodb.com/mongodb-shell/install/                                                                                                                          
+================ 
+Welcome to the MongoDB shell. For interactive help, type "help". For more comprehensive documentation, see https://docs.mongodb.com/                                                                                                          Questions? Try the MongoDB Developer Community Forums https://community.mongodb.com 
+The server generated these startup warnings when booting:2022-04-27T01:24:05.622+05:30: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted --- Enable MongoDB's free cloud-based monitoring service, which will then receive and display metrics about your deployment (disk utilization, CPU, operation statistics, etc). The monitoring data will be available on a MongoDB website with a unique URL accessible to you and anyone you share the URL with. MongoDB may use this information to make product improvements and to suggest MongoDB products and deployment options to you. To enable free monitoring, run the following command: db.enableFreeMonitoring()   To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+                                                                       ---                                                                         
+> show dbs                                                                                                                                                               
+admin   0.000GB                                                     
+config  0.000GB                                                                                                                                                           
+local   0.000GB                                                                                                                                                           
+
+> show collections                                                                                                                                                        
+> db.getname                                                                                                                                                              
+test.getname
+                                                                                                                                                              
+> db.getname()                                                                                                                                                            
+uncaught exception: TypeError: db.getname is not a function : @(shell):1:1                                                                                                                                                               
+>db.getName()                                                                                                                                                            
+test
+                                                                                                                                                                      
+> use school                                                                                                                                                              
+switched to db school                                                                                                                                                     
+
+> show dbs                                                                                                                                                                
+admin   0.000GB                                                                                                                                                           
+config  0.000GB                                                                                                                                                           
+local   0.000GB                                                                                                                                                           
+
+> use school                                                                                                                                                              
+switched to db school                                                                                                                                                     
+
+> db.getName()                                                                                                                                                            
+school                                                                                                                                                                    
+
+> db.students.insertOne({"name": "Saman", "address": "Galle", "age": 15, "subjects": ["Science", "Maths", "English"]})                                                    
+{"insertedId" : ObjectId("62696f594b280f0bfa799eb6")}                                                                                                                                                                         
+>db.school.students.find()                                                                                                                                               
+
+> db.students.find()                                                                                                                                                      
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "name" : "Saman", "address" : "Galle", "age" : 15, "subjects" : [ "Science", "Maths", "English" ] }                       
+
+> db.students.insertOne({"name": "Ameen", "address": "Matara", "age": 14, "subjects": ["BScience", "CMaths", "Spanish"]})
+{"acknowledged" : true, "insertedId" : ObjectId("6269704d4b280f0bfa799eb7")}                                                                                                                                                                         
+> db.students.find()                                                                                                                                                      
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "name" : "Saman", "address" : "Galle", "age" : 15, "subjects" : [ "Science", "Maths", "English" ] }                       
+{ "_id" : ObjectId("6269704d4b280f0bfa799eb7"), "name" : "Ameen", "address" : "Matara", "age" : 14, "subjects" : [ "BScience", "CMaths", "Spanish" ] }                    
+
+> db.students.find().pretty()                                                                                                                                             
+{                                                                                                                                                                                 
+	"_id" : ObjectId("62696f594b280f0bfa799eb6"),                                                                                                                             
+	"name" : "Saman",                                                                                                                                                         
+	"address" : "Galle",                                                                                                                                                      
+	"age" : 15,                                                                                                                                                               
+	"subjects" : [                                                                                                                                                                    
+		"Science",                                                                                                                                                                
+		"Maths",                                                                                                                                                                  
+		"English" ]                                                                                                                                                                 
+}                                                                                                                                                                         
+{                                                                                                                                                                                 
+	"_id" : ObjectId("6269704d4b280f0bfa799eb7"),                                                                                                                             
+	"name" : "Ameen",                                                                                                                                                         
+	"address" : "Matara",                                                                                                                                                     
+	"age" : 14,                                                                                                                                                               
+	"subjects" : [                                                                                                                                                                    
+		"BScience",                                                                                                                                                               
+		"CMaths",                                                                                                                                                                 
+		"Spanish"  ]
+}                                                                                                                                                                         
+
+> db.student.find({"name", "saman"})                                                                                                                                      
+uncaught exception: SyntaxError: missing : after property id : @(shell):1:23
+                                                                                                                                                             
+> db.students.find({"name", "saman"})                                                                                                                                     
+uncaught exception: SyntaxError: missing : after property id : @(shell):1:24
+                                                                                                                                                             
+> db.students.find({"name", "Saman"})                                                                                                                                     
+uncaught exception: SyntaxError: missing : after property id : @(shell):1:24
+                                                                                                                                                             
+> db.students.find({"name": "Saman"})                                                                                                                                     
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "name" : "Saman", "address" : "Galle", "age" : 15, "subjects" : [ "Science", "Maths", "English" ] }                       
+
+> db.students.find({"name": "Saman"}).pretty()                                                                                                                            
+{                                                                                                                                                                                 
+	"_id" : ObjectId("62696f594b280f0bfa799eb6"),                                                                                                                             
+	"name" : "Saman",                                                                                                                                                         
+	"address" : "Galle",                                                                                                                                                      
+	"age" : 15,                                                                                                                                                               
+	"subjects" : [                                                                                                                                                                    
+		"Science",                                                                                                                                                                
+		"Maths",                                                                                                                                                                  
+		"English" ]                                                                                                                                                                 
+}
+                                                                                                                                                                         
+> db.students.find().pretty()                                                                                                                                             
+{                                                                                                                                                                                 
+	"_id" : ObjectId("62696f594b280f0bfa799eb6"),                                                                                                                             
+	"name" : "Saman",                                                                                                                                                         
+	"address" : "Galle",                                                                                                                                                      
+	"age" : 15,                                                                                                                                                               
+	"subjects" : [                                                                                                                                                                    
+		"Science",                                                                                                                                                                
+		"Maths",                                                                                                                                                                  
+		"English"  ]                                                                                                                                                                 
+}                                                                                                                                                                         
+{                                                                                                                                                                                 
+"_id" : ObjectId("6269704d4b280f0bfa799eb7"),                                                                                                                             
+"name" : "Ameen",                                                                                                                                                         
+"address" : "Matara",                                                                                                                                                     
+"age" : 14,                                                                                                                                                               
+"subjects" : [                                                                                                                                                                    
+"BScience",                                                                                                                                                               
+"CMaths",                                                                                                                                                                 
+"Spanish"                                                                                                                                                         
+]                                                                                                                                                                 
+}                                                                                                                                                                         
+
+> db.students.find({"name", 1}).pretty
+uncaught exception: SyntaxError: missing : after property id :                                                                                                            
+@(shell):1:24                                                                                                                                                             
+
+> db.students.find({"name": 1}).pretty()                                                                                                                                  
+
+> db.students.find({"name": 1})                                                                                                                                           
+
+> db.students.find()                                                                                                                                                      
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "name" : "Saman", "address" : "Galle", "age" : 15, "subjects" : [ "Science", "Maths", "English" ] }                      
+{ "_id" : ObjectId("6269704d4b280f0bfa799eb7"), "name" : "Ameen", "address" : "Matara", "age" : 14, "subjects" : [ "BScience", "CMaths", "Spanish" ] }                    
+
+> db.students.find({"name"})                                                                                                                                              
+uncaught exception: SyntaxError: missing : after property id :                                                                                                            
+@(shell):1:24                                                                                                                                                             
+
+> db.students.find({}, {"name", 1})                                                                                                                                       
+uncaught exception: SyntaxError: missing : after property id :                                                                                                            
+@(shell):1:28                                                                                                                                                             
+
+> db.students.find({}, {"name": 1})                                                                                                                                       
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "name" : "Saman" }                                                                                                        
+{ "_id" : ObjectId("6269704d4b280f0bfa799eb7"), "name" : "Ameen" }                                                                                                        
+
+> db.students.find({"name": "Saman"}, {"address": 1})                                                                                                                     
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "address" : "Galle" }                                                                                                     
+
+> db.students.find({"name": "Ameen"}, {"address": 1}).pretty()                                                                                                            
+{ "_id" : ObjectId("6269704d4b280f0bfa799eb7"), "address" : "Matara" }                                                                                                    
+
+> db.students.find({"name": "Ameen"}, {"address": 1, "subjects": 1}).pretty()                                                                                             
+{                                                                                                                                                                                 
+"_id" : ObjectId("6269704d4b280f0bfa799eb7"),                                                                                                                             
+"address" : "Matara",                                                                                                                                                     
+"subjects" : [                                                                                                                                                                    
+"BScience",                                                                                                                                                               
+"CMaths",                                                                                                                                                                 
+"Spanish"                                                                                                                                                         
+]                                                                                                                                                                 
+}                                                                                                                                                                         
+
+> db.student.find().count()                                                                                                                                               
+0                                                                                                                                                                         
+> db.students.find().count()                                                                                                                                              
+2                                                                                                                                                                        
+> db.student.insert({"name": "Zayyan", "address": "Chillow", "subjects":["Ascience", "Physics"]}, {"name": "Bayyan", "address": "Baticalow", "subjects":["Ascience", "Physics"]})                                                                                                                                                                   
+WriteResult({ "nInserted" : 1 })                                                                                                                                          
+
+> db.students.find()                                                                                                                                                      
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "name" : "Saman", "address" : "Galle", "age" : 15, "subjects" : [ "Science", "Maths", "English" ] }                       
+{ "_id" : ObjectId("6269704d4b280f0bfa799eb7"), "name" : "Ameen", "address" : "Matara", "age" : 14, "subjects" : [ "BScience", "CMaths", "Spanish" ] }                    
+
+> db.student.insertMany({"name": "Zayyan", "address": "Chillow", "subjects":["Ascience", "Physics"]}, {"name": "Bayyan", "address": "Baticalow", "subjects":["Ascience", "Physics"]})                                                                                                                                                               
+uncaught exception: TypeError: documents.map is not a function :                                                                                                          DBCollection.prototype.insertMany@src/mongo/shell/crud_api.js:307:17                                                                                                      
+@(shell):1:1                                                                                                                                                              
+
+> db.student.insertMany([{"name": "Zayyan", "address": "Chillow", "subjects":["Ascience", "Physics"]}, {"name": "Bayyan", "address": "Baticalow", "subjects":["Ascience", "Physics"]}])                                                                                                                                                             
+{                                                                                                                                                                                 
+"acknowledged" : true,                                                                                                                                                    
+"insertedIds" : [                                                                                                                                                                 
+ObjectId("626977854b280f0bfa799eb9"),                                                                                                                                     
+ObjectId("626977854b280f0bfa799eba")                                                                                                                              
+]                                                                                                                                                                 
+}                                                                                                                                                                         
+
+> db.students.find()                                                                                                                                                      
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "name" : "Saman", "address" : "Galle", "age" : 15, "subjects" : [ "Science", "Maths", "English" ] }                       
+{ "_id" : ObjectId("6269704d4b280f0bfa799eb7"), "name" : "Ameen", "address" : "Matara", "age" : 14, "subjects" : [ "BScience", "CMaths", "Spanish" ] }                    
+
+> db.students.insertMany([{"name": "Zayyan", "address": "Chillow", "subjects":["Ascience", "Physics"]}, {"name": "Bayyan", "address": "Baticalow", "subjects":["Ascience", "Physics"]}])                                                                                                                                                            
+{                                                                                                                                                                                 
+"acknowledged" : true,                                                                                                                                                    
+"insertedIds" : [                                                                                                                                                                 
+ObjectId("626977c44b280f0bfa799ebb"),                                                                                                                                     
+ObjectId("626977c44b280f0bfa799ebc")                                                                                                                              
+]                                                                                                                                                                 
+}                                                                                                                                                                         
+
+> db.students.find()                                                                                                                                                      
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "name" : "Saman", "address" : "Galle", "age" : 15, "subjects" : [ "Science", "Maths", "English" ] }                       
+{ "_id" : ObjectId("6269704d4b280f0bfa799eb7"), "name" : "Ameen", "address" : "Matara", "age" : 14, "subjects" : [ "BScience", "CMaths", "Spanish" ] }                    
+{ "_id" : ObjectId("626977c44b280f0bfa799ebb"), "name" : "Zayyan", "address" : "Chillow", "subjects" : [ "Ascience", "Physics" ] }                                        
+{ "_id" : ObjectId("626977c44b280f0bfa799ebc"), "name" : "Bayyan", "address" : "Baticalow", "subjects" : [ "Ascience", "Physics" ] }                                      
+
+> db.collection.remove("student")\                                                                                                                                        
+uncaught exception: SyntaxError: invalid escape sequence :                                                                                                               
+@(shell):1:31                                                                                                                                                             
+
+> db.collection.remove("student")                                                                                                                                         
+WriteResult({ "nRemoved" : 0 })                                                                                                                                           
+
+> db.getcollectionNames()                                                                                                                                                 
+uncaught exception: TypeError: db.getcollectionNames is not a function :                                                                                                  
+@(shell):1:1                                                                                                                                                              
+
+> db.getCollectionNames()                                                                                                                                                 
+[ "student", "students" ]                                                                                                                                                 
+
+> db.student.remove()                                                                                                                                                     
+uncaught exception: Error: remove needs a query :                                                                                                                         DBCollection.prototype._parseRemove@src/mongo/shell/collection.js:364:15                                                                                                  
+DBCollection.prototype.remove@src/mongo/shell/collection.js:394:18                                                                                                        
+@(shell):1:1                                                                                                                                                              
+
+> db.getCollectionNames()                                                                                                                                                 
+[ "student", "students" ]                                                                                                                                                 
+> db.student.drop()                                                                                                                                                       
+true                                                                                                                                                                      
+> db.getCollectionNames()                                                                                                                                                 
+[ "students" ]                                                                                                                                                            
+> db.students.find().pretty()                                                                                                                                             
+{                                                                                                                                                                                 
+"_id" : ObjectId("62696f594b280f0bfa799eb6"),                                                                                                                             
+"name" : "Saman",                                                                                                                                                         
+"address" : "Galle",                                                                                                                                                      
+"age" : 15,                                                                                                                                                               
+"subjects" : [                                                                                                                                                                    
+"Science",                                                                                                                                                                
+"Maths",                                                                                                                                                                  
+"English"                                                                                                                                                         
+]                                                                                                                                                                 
+}                                                                                                                                                                         
+{                                                                                                                                                                                 
+"_id" : ObjectId("6269704d4b280f0bfa799eb7"),                                                                                                                             
+"name" : "Ameen",                                                                                                                                                         
+"address" : "Matara",                                                                                                                                                     
+"age" : 14,                                                                                                                                                               
+"subjects" : [                                                                                                                                                                    
+"BScience",                                                                                                                                                               
+"CMaths",                                                                                                                                                                 
+"Spanish"                                                                                                                                                         
+]                                                                                                                                                                 
+}                                                                                                                                                                         
+{                                                                                                                                                                                 
+"_id" : ObjectId("626977c44b280f0bfa799ebb"),                                                                                                                             
+"name" : "Zayyan",                                                                                                                                                        
+"address" : "Chillow",                                                                                                                                                    
+"subjects" : [                                                                                                                                                                    
+"Ascience",                                                                                                                                                               
+"Physics"                                                                                                                                                         
+]                                                                                                                                                                 
+}                                                                                                                                                                         
+{                                                                                                                                                                                 
+"_id" : ObjectId("626977c44b280f0bfa799ebc"),                                                                                                                             
+"name" : "Bayyan",                                                                                                                                                        
+"address" : "Baticalow",                                                                                                                                                  
+"subjects" : [                                                                                                                                                                    
+"Ascience",                                                                                                                                                               
+"Physics"                                                                                                                                                         
+]                                                                                                                                                                 
+}                                                                                                                                                                         
+
+> db.students.find()                                                                                                                                                      
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "name" : "Saman", "address" : "Galle", "age" : 15, "subjects" : [ "Science", "Maths", "English" ] }                       
+{ "_id" : ObjectId("6269704d4b280f0bfa799eb7"), "name" : "Ameen", "address" : "Matara", "age" : 14, "subjects" : [ "BScience", "CMaths", "Spanish" ] }                    
+{ "_id" : ObjectId("626977c44b280f0bfa799ebb"), "name" : "Zayyan", "address" : "Chillow", "subjects" : [ "Ascience", "Physics" ] }                                        
+{ "_id" : ObjectId("626977c44b280f0bfa799ebc"), "name" : "Bayyan", "address" : "Baticalow", "subjects" : [ "Ascience", "Physics" ] }                                      
+>                                                                                                                                                                         
+>                                                                                                                                                                         
+> db.studets.updateOne({"name": "Zayyan"}, {$set: {"address": "Matara"}})                                                                                                 
+{ "acknowledged" : true, "matchedCount" : 0, "modifiedCount" : 0 }                                                                                                        
+
+> db.students.find()                                                                                                                                                      
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "name" : "Saman", "address" : "Galle", "age" : 15, "subjects" : [ "Science", "Maths", "English" ] }                       
+{ "_id" : ObjectId("6269704d4b280f0bfa799eb7"), "name" : "Ameen", "address" : "Matara", "age" : 14, "subjects" : [ "BScience", "CMaths", "Spanish" ] }                    
+{ "_id" : ObjectId("626977c44b280f0bfa799ebb"), "name" : "Zayyan", "address" : "Chillow", "subjects" : [ "Ascience", "Physics" ] }                                        
+{ "_id" : ObjectId("626977c44b280f0bfa799ebc"), "name" : "Bayyan", "address" : "Baticalow", "subjects" : [ "Ascience", "Physics" ] }                                      
+
+> db.students.updateOne({"name": "Zayyan"}, {$set: {"address": "Matara"}})                                                                                                
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }                                                                                                        
+
+> db.students.find()                                                                                                                                                      
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "name" : "Saman", "address" : "Galle", "age" : 15, "subjects" : [ "Science", "Maths", "English" ] }                       
+{ "_id" : ObjectId("6269704d4b280f0bfa799eb7"), "name" : "Ameen", "address" : "Matara", "age" : 14, "subjects" : [ "BScience", "CMaths", "Spanish" ] }                    
+{ "_id" : ObjectId("626977c44b280f0bfa799ebb"), "name" : "Zayyan", "address" : "Matara", "subjects" : [ "Ascience", "Physics" ] }                                         
+{ "_id" : ObjectId("626977c44b280f0bfa799ebc"), "name" : "Bayyan", "address" : "Baticalow", "subjects" : [ "Ascience", "Physics" ] }                                      
+
+> db.geCollectionNames()                                                                                                                                                  
+uncaught exception: TypeError: db.geCollectionNames is not a function :                                                                                                   
+@(shell):1:1                                                                                                                                                              
+
+> db.getCollectionNames()                                                                                                                                                 
+[ "students" ]                                                                                                                                                            
+> db.student.updateOne({"name": "Zayyan"}, {$push: {"age": 19}})                                                                                                          
+{ "acknowledged" : true, "matchedCount" : 0, "modifiedCount" : 0 }                                                                                                        
+
+> db.students.updateOne({"name": "Zayyan"}, {$push: {"age": 19}})                                                                                                         
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }                                                                                                        
+
+> db.students.find()                                                                                                                                                      
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "name" : "Saman", "address" : "Galle", "age" : 15, "subjects" : [ "Science", "Maths", "English" ] }                       
+{ "_id" : ObjectId("6269704d4b280f0bfa799eb7"), "name" : "Ameen", "address" : "Matara", "age" : 14, "subjects" : [ "BScience", "CMaths", "Spanish" ] }                    
+{ "_id" : ObjectId("626977c44b280f0bfa799ebb"), "name" : "Zayyan", "address" : "Matara", "subjects" : [ "Ascience", "Physics" ], "age" : [ 19 ] }                         
+{ "_id" : ObjectId("626977c44b280f0bfa799ebc"), "name" : "Bayyan", "address" : "Baticalow", "subjects" : [ "Ascience", "Physics" ] }                                      
+
+> db.students.updateOne({"name": "Zayyan"}, {$push: {"cardOption": "Free"}})                                                                                              
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }                                                                                                        
+
+> db.students.find()                                                                                                                                                      
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "name" : "Saman", "address" : "Galle", "age" : 15, "subjects" : [ "Science", "Maths", "English" ] }                       
+{ "_id" : ObjectId("6269704d4b280f0bfa799eb7"), "name" : "Ameen", "address" : "Matara", "age" : 14, "subjects" : [ "BScience", "CMaths", "Spanish" ] }                    
+{ "_id" : ObjectId("626977c44b280f0bfa799ebb"), "name" : "Zayyan", "address" : "Matara", "subjects" : [ "Ascience", "Physics" ], "age" : [ 19 ], "cardOption" : [ "Free" ] }                                                                  { "_id" : ObjectId("626977c44b280f0bfa799ebc"), "name" : "Bayyan", "address" : "Baticalow", "subjects" : [ "Ascience", "Physics" ] }                                      
+
+> db.students.updateOne({"name": "Zayyan"}, {$unset: {"age"}})                                                                                                            
+uncaught exception: SyntaxError: missing : after property id :                                                                                                           
+@(shell):1:57                                                                                                                                                             
+
+> db.students.updateOne({"name": "Zayyan"}, {$unset: {"age": []}})                                                                                                        
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }                                                                                                        
+
+> db.students.find()                                                                                                                                                      
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "name" : "Saman", "address" : "Galle", "age" : 15, "subjects" : [ "Science", "Maths", "English" ] }                       
+{ "_id" : ObjectId("6269704d4b280f0bfa799eb7"), "name" : "Ameen", "address" : "Matara", "age" : 14, "subjects" : [ "BScience", "CMaths", "Spanish" ] }                    
+{ "_id" : ObjectId("626977c44b280f0bfa799ebb"), "name" : "Zayyan", "address" : "Matara", "subjects" : [ "Ascience", "Physics" ], "cardOption" : [ "Free" ] }              
+{ "_id" : ObjectId("626977c44b280f0bfa799ebc"), "name" : "Bayyan", "address" : "Baticalow", "subjects" : [ "Ascience", "Physics" ] }                                      
+
+> db.students.updateOne({"name": "Zayyan"}, {$unset: {"cardOption": []}})                                                                                                 
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }                                                                                                        
+
+> db.students.find()                                                                                                                                                      
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "name" : "Saman", "address" : "Galle", "age" : 15, "subjects" : [ "Science", "Maths", "English" ] }                       
+{ "_id" : ObjectId("6269704d4b280f0bfa799eb7"), "name" : "Ameen", "address" : "Matara", "age" : 14, "subjects" : [ "BScience", "CMaths", "Spanish" ] }                    
+{ "_id" : ObjectId("626977c44b280f0bfa799ebb"), "name" : "Zayyan", "address" : "Matara", "subjects" : [ "Ascience", "Physics" ] }                                         
+{ "_id" : ObjectId("626977c44b280f0bfa799ebc"), "name" : "Bayyan", "address" : "Baticalow", "subjects" : [ "Ascience", "Physics" ] }                                      
+
+> db.students.updateOne({"name": "Zayyan"}, {$set: {"age": 16}})                                                                                                          
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }                                                                                                        
+
+> db.students.find()                                                                                                                                                      
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "name" : "Saman", "address" : "Galle", "age" : 15, "subjects" : [ "Science", "Maths", "English" ] }                       
+{ "_id" : ObjectId("6269704d4b280f0bfa799eb7"), "name" : "Ameen", "address" : "Matara", "age" : 14, "subjects" : [ "BScience", "CMaths", "Spanish" ] }                    
+{ "_id" : ObjectId("626977c44b280f0bfa799ebb"), "name" : "Zayyan", "address" : "Matara", "subjects" : [ "Ascience", "Physics" ], "age" : 16 }                             
+{ "_id" : ObjectId("626977c44b280f0bfa799ebc"), "name" : "Bayyan", "address" : "Baticalow", "subjects" : [ "Ascience", "Physics" ] }                                      
+
+> db.students.deleteOne({"name": "Bayyan"})                                                                                                                               
+{ "acknowledged" : true, "deletedCount" : 1 }                                                                                                                             
+
+> db.students.find()                                                                                                                                                      
+{ "_id" : ObjectId("62696f594b280f0bfa799eb6"), "name" : "Saman", "address" : "Galle", "age" : 15, "subjects" : [ "Science", "Maths", "English" ] }                       
+{ "_id" : ObjectId("6269704d4b280f0bfa799eb7"), "name" : "Ameen", "address" : "Matara", "age" : 14, "subjects" : [ "BScience", "CMaths", "Spanish" ] }                    
+{ "_id" : ObjectId("626977c44b280f0bfa799ebb"), "name" : "Zayyan", "address" : "Matara", "subjects" : [ "Ascience", "Physics" ], "age" : 16 }                             
+>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
