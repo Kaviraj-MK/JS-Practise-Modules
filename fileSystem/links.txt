@@ -1,0 +1,18 @@
+https://nodejs.org/api/globals.html#global-objects
+
+check following modules
+- _dirname
+- _filename
+- path
+- fetch
+
+function
+- fs.readir()
+- fs.readFileSync()
+- fs.writeFile()
+- fs.mkdir()
+- fs.existSync()
+- fs.createReadStream()
+- fs.createWriteSream()
+- fs.createReadStream()
+
